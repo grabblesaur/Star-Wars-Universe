@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#7E57C2</color>
+    <color name="colorPrimaryDark">#673AB7</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="dp50">#EDE7F6</color>
+    <color name="dp100">#D1C4E9</color>
+    <color name="dp200">#B39DDB</color>
+    <color name="dp300">#9575CD</color>
+    <color name="dp400">#7E57C2</color>
+    <color name="dp500">#673AB7</color>
+</resources>
