@@ -29,7 +29,11 @@ public class MainActivity extends AppCompatActivity {
 
         // creating container
         final RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view_people_container);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+//        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+        recyclerView.setLayoutManager(linearLayoutManager);
+
 
         SWAPIInterface swapiService = SWAPIClient
                 .getClient()
